@@ -1,0 +1,31 @@
+body{
+  padding: 0%;
+  margin: 0%;
+}
+
+h1 {
+    font-family: "Playwrite NL Guides", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: smaller;
+    color: white;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(199, 16, 16);
+}
+.container2 {
+    display: flex;
+    gap: 30px;
+    color: white;
+}
+main{
+  background-color: white;
+}
