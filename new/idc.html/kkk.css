@@ -1,0 +1,80 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    font-family: Arial, sans-serif; 
+} 
+ 
+.footer {
+    gap: 90px;
+    background-image: url(https://i.pinimg.com/736x/27/a4/6d/27a46d1c653824ac81e2c38693118f77.jpg); 
+    background-size: contain;
+    display: flex;
+    background-color: rgb(180, 22, 48); 
+    color:white; 
+    padding: 100px 0; 
+    text-align: center; 
+} 
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 90px;
+}
+.footer-logo{
+    font-size: 1rem;
+    padding: 10px;
+    justify-content: space-between;
+}
+.products{
+    display: grid;
+}
+.contract{
+    padding: auto;
+    display: grid;
+}
+.Us{
+    padding: auto;
+    display: grid;
+}
+
+.footer-link {
+     
+    grid-template-columns: auto;
+    gap: 10px;
+    padding: 26px;
+    color: white; 
+    margin: 0 15px; 
+    text-decoration: none; 
+    font-weight: bold; 
+} 
+ 
+.footer-link:hover { 
+    text-decoration: underline; 
+} 
+.icon1{
+    width: 30px;
+    height: 30px;
+
+}
+.icon{
+    display: flex;
+
+}
+.icon1{
+    flex-direction: row;
+
+}
+.content{
+    color: rgb(8, 42, 77);
+    display: grid; height: 300px; grid-template-rows: 1fr auto;
+    font-size: .8rem;
+    margin-top: auto;
+   
+    
+}
+.copy{
+    margin-top: 270px;
+}

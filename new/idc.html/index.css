@@ -1,0 +1,89 @@
+.newsletter-section { 
+    background-image: url(https://i.pinimg.com/736x/09/21/23/092123d046d44b63b4be66928514a6ab.jpg);
+    background-size:contain;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 150px; 
+    background-color: #fff; 
+} 
+ 
+.newsletter-content { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    max-width: 50%; 
+} 
+ 
+.newsletter-icon { 
+    width: 50px; 
+    margin-bottom: 10px; 
+} 
+ 
+.newsletter-text {
+    border: 2px solid yellow; 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.2em; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+    color: white; 
+    background: red; 
+} 
+ 
+.newsletter-input { 
+    display: flex; 
+    align-items: center; 
+} 
+ 
+.input-field { 
+    width: 300px; 
+    padding: 10px; 
+    border: 2px solid yellow; 
+    border-radius: 20px; 
+    margin-right: 10px; 
+} 
+ 
+.subscribe-button { 
+    padding: 10px 20px; 
+    background-color: rgb(216, 15, 15);
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    font-weight: bold; 
+} 
+ 
+.subscribe-button:hover { 
+    background-color: darkred; 
+} 
+ 
+.offer-section { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+ 
+.offer-card { 
+    background-image: url(https://i.pinimg.com/474x/a9/2e/1e/a92e1e19ebd595630177dfc93edcdeb7.jpg); 
+    color: white; 
+    padding: 70px; 
+    border: 3px solid yellow; 
+    text-align: center; 
+    border-radius: 10px; 
+} 
+ 
+.offer-text { 
+    font-size: 2em; 
+    font-weight: bold; 
+    margin: 10px 0; 
+} 
+ 
+.offer-discount { 
+    font-size: 1.5em; 
+    margin: 10px 0; 
+} 
+ 
+.offer-note { 
+    font-size: 1em; 
+} 

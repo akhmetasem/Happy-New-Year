@@ -1,0 +1,85 @@
+
+
+
+.time-out {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url(https://wallpapercave.com/wp/wp4994011.jpg);
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
+}
+
+
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.time {
+  background-color: #07063b;
+  color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 80px;
+  text-align: center;
+}
+
+.time h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.time small {
+  font-size: 12px;
+}
+
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+
+.hide {
+  display: none;
+}
+.time-outt{
+  color: white;
+}
+#show{
+  border-radius: 90px;
+  padding: 10px;
+  background: #07063b;
+  color: white;
+}
+#subscribe{
+  border-radius: 90px;
+  padding: 10px;
+  background: #07063b;
+  color: white;
+}
+
+.arrow {
+  position: fixed;
+  top: 70vh;
+  left: 3%;
+  width: 50px;
+  background: white;
+  padding: 10px;
+  border-radius: 100px;
+  transition: all 0.5s;
+  display: none;  
+}
